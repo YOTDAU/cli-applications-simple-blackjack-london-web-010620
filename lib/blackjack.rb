@@ -55,7 +55,10 @@ end
 def runner
   welcome
   total = initial_round
-  if 
+  if display_card_total > 21 
+  end_game
+  else 
+    prompt_user
 end
 
 describe "#runner" do
