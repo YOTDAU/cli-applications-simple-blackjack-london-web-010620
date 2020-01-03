@@ -40,7 +40,8 @@ def hit?
   else
     invalid_command
     prompt_user
-  
+    get_user_input
+  end
 end
 
 describe "#hit?" do
