@@ -55,7 +55,7 @@ end
 def runner
   welcome
   total = initial_round
-  
+  if 
 end
 
 describe "#runner" do
