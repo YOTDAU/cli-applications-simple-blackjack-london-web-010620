@@ -61,6 +61,7 @@ def runner
     prompt_user
     hand_total = hit?(hand_total)
     display_card_total(hand_total)
+  end
 end
 
 describe "#runner" do
