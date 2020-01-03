@@ -7,7 +7,7 @@ def deal_card
 end
 
 def display_card_total
-  puts dea_card
+  puts deal_card
 end
 
 def prompt_user
